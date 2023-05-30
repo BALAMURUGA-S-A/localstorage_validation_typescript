@@ -1,0 +1,86 @@
+table {
+    margin-left: 12em;
+    width: 40em;
+    height: auto;
+
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: .1em solid rgb(216, 213, 213);
+    transform: scale(1);
+    padding: .4em;
+}
+
+tr {
+    margin-top: 2em;
+}
+
+td {
+    text-align: center;
+}
+
+
+.highlighted {
+    background-color: gray;
+    color: cornsilk;
+    font-weight: 500;
+}
+
+.table05 {
+    background-color: hsl(180, 14%, 96%);
+    height: 23em;
+}
+
+.button46 {
+    margin-left: 2em;
+    width: 7em;
+    height: 2.3em;
+    border: none;
+    background-color: rgb(44, 17, 222);
+    color: white;
+    border-radius: .5em;
+}
+
+.table_container {
+
+    position: relative;
+    background-image: linear-gradient(to bottom,
+            hsl(229, 45%, 19%) 0%,
+            hsl(229, 45%, 19%)30%,
+            white 30%,
+            white 100%);
+    padding: 3.5em;
+    border-radius: 1em;
+
+}
+
+.tablemain_container {
+    background-color: white;
+    padding: 4em;
+}
+
+.search_bar {
+    margin-left: 45em;
+    height: 1.8em;
+    width: 17em;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    padding: 0 .5em;
+}
+
+.search_box {
+    margin-top: 2em;
+}
+
+input ::placeholder {
+    color: aliceblue;
+}
+
+.font {
+    position: absolute;
+    margin-left: 51.3em;
+    margin-top: 1em;
+}
